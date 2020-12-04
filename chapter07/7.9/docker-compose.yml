@@ -1,0 +1,5 @@
+# イメージのタグ指定あり
+# サービス定義
+services:
+webserver:
+    image: asashiho/dockersample:1.0

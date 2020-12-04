@@ -1,0 +1,9 @@
+# バージョンを指定
+version: '3.3'
+# サービス定義
+services:
+  # WebServer config
+  webserver:
+    build:
+      context: ./data
+      dockerfile: Dockerfile-alternte

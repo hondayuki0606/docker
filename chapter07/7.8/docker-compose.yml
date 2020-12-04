@@ -1,0 +1,4 @@
+# イメージのタグ指定なし
+services:
+webserver
+    image: ubuntu
