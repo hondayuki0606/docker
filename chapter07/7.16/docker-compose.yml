@@ -1,0 +1,5 @@
+# entrypointの指定
+entrypoint:
+    - php
+    - -d
+    - memory_limit=-1
